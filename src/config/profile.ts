@@ -367,7 +367,7 @@ export const timeline: TimelineItem[] = [
     role: "Freelance Full-Stack Developer",
     organization: "Independent",
     location: "Remote",
-    period: "June 2026 - Present",
+    period: "May 2026 - Present",
     points: [
       "Building freelance product work across interfaces, API-ready flows, data views, and clear user experiences.",
     ],
