@@ -8,6 +8,7 @@ import { usePortfolioView, type PortfolioView } from "./hooks/usePortfolioView";
 import { Contact } from "./sections/Contact";
 import { Experience } from "./sections/Experience";
 import { Hero } from "./sections/Hero";
+import { OpenSourceSection } from "./sections/OpenSourceSection";
 import { WorkStudio } from "./sections/WorkStudio";
 import { CaseStudyPage } from "./sections/CaseStudyPage";
 import { DevelopersPage } from "./sections/DevelopersPage";
@@ -21,6 +22,7 @@ function HomePage({ view }: {
       <WorkStudio view={view} />
       <Experience view={view} />
       <Contact view={view} />
+      <OpenSourceSection />
     </>
   );
 }

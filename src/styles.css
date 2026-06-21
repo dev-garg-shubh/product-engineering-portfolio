@@ -1920,6 +1920,53 @@ svg.tech-logo circle {
   margin-left: auto;
 }
 
+.open-source-section {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  border-top: 1px solid var(--line);
+  padding: 76px 0 92px;
+}
+
+.open-source-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 70px;
+}
+
+.open-source-inner h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3.8rem;
+  font-weight: 500;
+  line-height: 0.95;
+}
+
+.open-source-inner > div:last-child > p {
+  max-width: 650px;
+  margin-bottom: 26px;
+  color: var(--paper-muted);
+  font-size: 1.04rem;
+}
+
+.open-source-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.open-source-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--amber);
+  font-size: 0.88rem;
+  font-weight: 950;
+}
+
+.open-source-actions a:hover {
+  color: var(--paper);
+}
+
 .footer {
   display: flex;
   width: min(1120px, calc(100% - 32px));
@@ -3089,6 +3136,15 @@ svg.tech-logo circle {
 
   .footer-links {
     justify-content: flex-start;
+  }
+
+  .open-source-inner {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .open-source-inner h2 {
+    font-size: 3rem;
   }
 }
 
