@@ -144,7 +144,7 @@ story = [
     role(
         "Freelance Full-Stack Developer",
         "Independent, Remote",
-        "June 2026 - Present",
+        "May 2026 - Present",
         [
             "Building product systems across interfaces, APIs, real-time data views, cloud delivery, and reliable user workflows.",
         ],
