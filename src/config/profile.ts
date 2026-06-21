@@ -378,7 +378,7 @@ export const timeline: TimelineItem[] = [
   {
     role: "Member of Technical Staff - Full Stack",
     organization: "Sprih Inc.",
-    location: "Onsite",
+    location: "Pune (Onsite)",
     period: "June 2023 - May 2026",
     points: [
       "As part of the early engineering team, owned product features across dashboards, user management, facility workflows, data visualization, management pages, and API integrations.",
@@ -389,7 +389,7 @@ export const timeline: TimelineItem[] = [
   {
     role: "Software Developer Intern",
     organization: "Sprih Inc.",
-    location: "Onsite",
+    location: "Pune (Onsite)",
     period: "June 2022 - April 2023",
     points: [
       "Developed reusable UI components, integrated REST APIs, and collaborated with designers on responsive product experiences.",

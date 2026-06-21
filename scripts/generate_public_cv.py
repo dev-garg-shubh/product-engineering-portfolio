@@ -152,7 +152,7 @@ story = [
     Spacer(1, 2),
     role(
         "Member of Technical Staff - Full Stack",
-        "Sprih Inc., Onsite",
+        "Sprih Inc., Pune (Onsite)",
         "June 2023 - May 2026",
         [
             "Joined the early engineering team and owned production features across sustainability dashboards, facility and user management, data workflows, reporting surfaces, and Java-backed API integrations.",
@@ -163,7 +163,7 @@ story = [
     Spacer(1, 2),
     role(
         "Software Developer Intern",
-        "Sprih Inc., Onsite",
+        "Sprih Inc., Pune (Onsite)",
         "June 2022 - April 2023",
         [
             "Developed reusable responsive interfaces, integrated REST APIs, and contributed to dashboard and product workflows from design through implementation.",
