@@ -5,9 +5,9 @@ import { profile } from "../config/profile";
 import type { PortfolioView } from "../hooks/usePortfolioView";
 
 const systemLayers = [
-  { icon: PanelsTopLeft, label: "Interfaces", detail: "React product workflows" },
-  { icon: Braces, label: "Services", detail: "Java, Node.js, FastAPI" },
-  { icon: Database, label: "Data", detail: "PostgreSQL, Redis, event flows" },
+  { icon: PanelsTopLeft, label: "Interfaces", detail: "React.js" },
+  { icon: Braces, label: "Services", detail: "Java, FastAPI" },
+  { icon: Database, label: "Data", detail: "PostgreSQL, Redis" },
   { icon: CloudCog, label: "Delivery", detail: "Docker, AWS, CI/CD" },
 ];
 
